@@ -254,7 +254,7 @@
         display: flex;
         align-items: flex-end;
         margin-right: 4px;
-        width: calc(100% - 4px);
+        width: calc(100% / 2);
         height: 320px;
         padding: 20px;
         background-repeat: no-repeat;
