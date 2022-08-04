@@ -1,8 +1,8 @@
-/*body*/
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: "OpenSans-Regular", sans-serif;
 }
 
 /*FONTS*/
@@ -20,6 +20,7 @@
     font-style: normal;
 }
 
+/*body*/
 
 /*HEADER*/
     .header {
@@ -253,6 +254,7 @@
         display: flex;
         align-items: flex-end;
         margin-right: 4px;
+        width: calc(100% - 4px);
         height: 320px;
         padding: 20px;
         background-repeat: no-repeat;
