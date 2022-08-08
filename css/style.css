@@ -1,8 +1,8 @@
+/*body*/
 * {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: "OpenSans-Regular", sans-serif;
 }
 
 /*FONTS*/
@@ -20,7 +20,6 @@
     font-style: normal;
 }
 
-/*body*/
 
 /*HEADER*/
     .header {
@@ -133,6 +132,9 @@
     .header a {
         text-decoration: none;
         color: #ffffff;
+}
+
+    .nav-items {
         margin-left: 35px;
 }
 
@@ -253,7 +255,6 @@
         margin-right: 4px;
         height: 320px;
         padding: 20px;
-        width: calc(50% - 4px)
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -581,6 +582,7 @@
         margin-top: 10px;
         margin-left: auto;
         margin-right: auto;
+        width: calc(100% / 2);
         background-color: #B59F5B;
 }
 
@@ -949,9 +951,6 @@
         list-style: none; 
         padding-top: 30px;
         padding-bottom: 24px;
-}
-
-    .social-item {
         margin-right: 22px;
 }
 
@@ -989,7 +988,7 @@
         text-decoration: none;
 }
 
-    .network {
+     .network {
         width: 1px;
         height: 1px;
         clip: rect(1px, 1px, 1px, 1px);
@@ -1166,6 +1165,12 @@
         background-image: url(../svg/form-x.svg);
         width: 20px;
         height: 20px;
+}
+
+    .popup-close:before, .popup-close:after {
+        width: 20px;
+        height: 20px;
+}
 }
 
 @media (min-width: 641px) and (max-width: 1199px) {
