@@ -251,9 +251,9 @@
         display: flex;
         align-items: flex-end;
         margin-right: 4px;
-        width: calc(360px - 4px);
         height: 320px;
         padding: 20px;
+        width: calc(100% / 2)
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -989,7 +989,7 @@
         text-decoration: none;
 }
 
-     .network {
+    .network {
         width: 1px;
         height: 1px;
         clip: rect(1px, 1px, 1px, 1px);
