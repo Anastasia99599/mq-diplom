@@ -355,7 +355,7 @@
         flex-wrap: wrap;	
 }
     .trend-post {
-        width: calc(50% - 4px);		
+        width: 100%;		
 }
     .title-section {
         font-family: 'OpenSans-Bold';
