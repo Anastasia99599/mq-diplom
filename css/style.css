@@ -253,7 +253,7 @@
         margin-right: 4px;
         height: 320px;
         padding: 20px;
-        width: calc(100% / 2)
+        width: calc(100% -50% / 2)
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
