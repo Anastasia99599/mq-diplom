@@ -563,6 +563,8 @@
 
     .latest-side {
         margin-bottom: 25px; 
+        width: calc(100% / 2);
+        right: calc(100% - 20px);
 }
 
     .title-side {
@@ -581,8 +583,7 @@
         height: 3px;
         margin-top: 10px;
         margin-left: auto;
-        width: calc(100% / 2);
-        right: calc(100% / 20px);
+        margin-right: auto;
         background-color: #B59F5B;
 }
 
