@@ -1,13 +1,13 @@
 /*FONTS*/
 @font-face {
-    font-family: 'OpenSans-Bold';
+    font-family: 'OpenSans';
     src: url(../fonts/OpenSans-Bold.woff);
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'OpenSans-Regular';
+    font-family: 'OpenSans';
     src: url(../fonts/OpenSans-Regular.woff);
     font-weight: 400;
     font-style: normal;
@@ -63,8 +63,9 @@
         padding: 0px;
         text-transform: uppercase;
         color: #ffffff;
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSans';
         text-align: center;
+        font-weight: bold;
 }
 
     .header-logo-nav {
@@ -117,7 +118,7 @@
         display: flex;
         line-height: 36px;
         list-style: none;
-        font-family: 'OpenSans-Regular';
+        font-family: 'OpenSans';
 }
 
     .item-link:hover {
@@ -264,7 +265,8 @@
 }
 
     .title-section {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSans';
+        font-weight: bold;
         text-align: center;
         text-transform: uppercase;
         line-height: 23.99px;
@@ -318,7 +320,7 @@
     .trend-title {
         max-height: 75px;	
         color: #ffffff;	
-        overflow: hidden;
+        overflow-x: hidden;
         text-overflow: ellipsis;
 }
 
@@ -338,8 +340,9 @@
         width: 25%;		
 }	
     .title-section {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSans';
         font-size: 20px;
+        font-weight: bold;
 }
 }
 
@@ -352,8 +355,9 @@
         width: 50%;		
     }
     .title-section {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSans';
         font-size: 18px;
+        font-weight: bold;
 }	
 }
 
@@ -366,8 +370,9 @@
         width: 100%;		
 }
     .title-section {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSans';
         font-size: 16px;
+        font-weight: bold;
     }
 }
 
@@ -418,12 +423,13 @@
     .tag-item {
         font-size: 14px;
         line-height: 40px;
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSans';
         text-transform: uppercase;
         list-style: none;
         color: #b59f5b;
         text-decoration: none;
         padding: 0;
+        font-weight: bold;
 }
 
     .tag-item:hover {
@@ -436,10 +442,11 @@
 
     .post-title {
         display: flex;
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSans';
         text-transform: uppercase;
         list-style: none;
-        text-decoration: none; 
+        text-decoration: none;
+        font-weight: bold;
 }
 
     .post-title:hover {
@@ -459,18 +466,19 @@
 }
 
     .date-item {
-        font-family: 'OpenSans-Regular';
+        font-family: 'OpenSans';
         color: #888888;  
 }
 
     .author-item {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSans';
+        font-weight: bold;
         color: #000000;
         margin-left: 12px;
 }
 
     .paragraph {
-        font-family: 'OpenSans-Regular';
+        font-family: 'OpenSans';
         color: #0f0d0e;
         text-align: left; 
         padding-bottom: 12px;
@@ -573,7 +581,8 @@
 }
 
     .title-side {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSans';
+        font-weight: bold;
         font-size: 14px;
         text-align: center;
         text-transform: uppercase;
@@ -611,12 +620,13 @@
 }
 
     .posts-title {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSans';
+        font-weight: bold;
         font-size: 14px;
         line-height: 17.99px;
         color: #000000;
         text-transform: uppercase;
-        overflow: hidden;
+        overflow-x: hidden;
 }
 
     .posts-title-link:hover {
@@ -637,7 +647,7 @@
 }
 
     .aside-date {
-        font-family: 'OpenSans-Regular';
+        font-family: 'OpenSans';
         font-size: 12px;
         color: #000000;
         opacity: 0.54;
@@ -651,7 +661,7 @@
 }
 
     .input { 
-        font-family: 'OpenSans-Regular';
+        font-family: 'OpenSans';
         height: 50px;
         width: 222px;
         border: none;
@@ -664,7 +674,8 @@
 }
 
     .button {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSans';
+        font-weight: bold;
         background-color: #b59f5b;
         height: 49px;
         border: none;
@@ -695,7 +706,7 @@
         padding: 0;
         border: 0;
         clip: rect(0 0 0 0);
-        overflow: hidden;
+        overflow-x: hidden;
 } 
 
 /*SECTIONS-SUB_FORM*/
@@ -712,7 +723,7 @@
 }
 
     .email {
-        font-family: 'OpenSans-Regular';
+        font-family: 'OpenSans';
         display: flex;
         width: 100%;
         padding: 15px 0 16px 18px;
@@ -740,7 +751,8 @@
 }
 
     .tags-list {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSans';
+        font-weight: bold;
         display: flex;
         list-style: none;
         flex-wrap: wrap;
@@ -782,7 +794,8 @@
 }
 
     .category {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSans';
+        font-weight: bold;
         color: #000000;
         list-style-type: none;
         text-align: left;
@@ -814,7 +827,8 @@
 }
 
     .category-number {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSans';
+        font-weight: bold;
         vertical-align: super;
         font-size: 12px;
         color: #b59f5b;
@@ -866,7 +880,7 @@
 }
 
     .product-body {
-        overflow: hidden;
+        overflow-x: hidden;
         z-index: -1;
         position: relative;	
         bottom: 170px;
@@ -878,12 +892,12 @@
 
     .text-product {	
         display: inline-block;
-        font-family: 'OpenSans-Regular';
+        font-family: 'OpenSans';
         font-size: 15px;
         color: #0f0d0e;
         text-align: left; 
         max-height: 80px;
-        overflow: hidden;
+        overflow-x: hidden;
         text-overflow: ellipsis;
 }
 
@@ -905,7 +919,8 @@
 
     .price-title {
         display: flex;
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSans';
+        font-weight: bold;
         text-transform: uppercase;
         list-style: none;
         text-decoration: none; 
@@ -931,7 +946,8 @@
 }
 
     .shop-link {
-        font-family: 'OpenSans-Bold';
+        font-family: 'OpenSans';
+        font-weight: bold;
         font-size: 14px;
         text-transform: uppercase;
         color: #ffffff;
@@ -1030,7 +1046,7 @@
 }
 
     .copyrights-title {
-        font-family: 'OpenSans-Regular';
+        font-family: 'OpenSans';
         font-size: 12px;
         color: #999999;
 }
@@ -1081,7 +1097,7 @@
 }
 
     .popup-text {	
-        font-family: 'OpenSans-Regular';
+        font-family: 'OpenSans';
         font-size: 13px;
         padding-bottom: 10px;
         color: #999999;
@@ -1133,7 +1149,7 @@
 
     .radio-button {
         margin-right: 10px;	
-        font-family: 'OpenSans-Regular';
+        font-family: 'OpenSans';
         font-size: 13px;
 }
 
