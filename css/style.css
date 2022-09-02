@@ -321,6 +321,7 @@
         max-height: 75px;	
         color: #ffffff;	
         overflow-x: hidden;
+        overflow-y: visible;
         text-overflow: ellipsis;
 }
 
