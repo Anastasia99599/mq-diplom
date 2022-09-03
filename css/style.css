@@ -897,7 +897,6 @@
         text-align: left; 
         max-height: 80px;
         overflow-x: hidden;
-        text-overflow: ellipsis;
 }
 
     .product-link {
