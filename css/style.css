@@ -627,6 +627,7 @@
         color: #000000;
         text-transform: uppercase;
         overflow-x: hidden;
+        overflow-y: hidden;
 }
 
     .posts-title-link:hover {
